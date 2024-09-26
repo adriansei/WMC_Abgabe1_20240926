@@ -1,0 +1,33 @@
+.quiz {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    .quiz {
+      padding: 0.5rem;
+    }
+  }
+  button {
+    color: black; /* White text */
+    padding: 15px 20px; /* Some padding */
+    border: none; /* Remove borders */
+    border-radius: 25px; /* Rounded corners (higher value for more roundness) */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    text-align: center; /* Center the text inside */
+    font-size: 18px; /* Larger text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: transform 0.2s; /* Animation for hover effect */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  ul {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes left padding */
+  }
+  
